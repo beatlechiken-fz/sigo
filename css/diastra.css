@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+#TablaFondoBlanco {
+	width:800px; 
+	height:1458px; 
+	margin-left:auto; 
+	margin-right:auto; 
+	background-image:url(../imagenes/fondo_blanco.bmp);	
+}
+
+#CeldaBanner {
+	padding-left:35px; 
+	padding-top:30px;	
+}
+
+#TablaMenuPrincipal {
+	width:100%; 
+	text-align:right; 
+	color:#666; 
+	font-weight:bold; 
+	font-size:16px; 
+	font-family:'Calibri';	
+}
+
+.CeldaMenuPrincipalActivo {
+	width:100%; 
+	padding-right:10px;  
+	border-bottom:#777 solid 5px;	
+}
+
+.CeldaMenuPrincipal {
+	width:100%; 
+	padding-right:10px;
+}
+
+#CeldaMarcoContenido { 
+	width:568px; 
+	padding-left:45px; 
+	padding-top:20px; 
+	vertical-align:top;	
+}
+
+.CeldaResumenSeccion {
+	color:#787878; 
+	font-family:Calibri; 
+	font-size:16px;
+	vertical-align:top;
+}
+
+.ImagenMas {
+	border:0px; 
+	width:14px; 
+	height:13px;	
+}
+
+.ImagenResumenSeccion {
+	width:140px; 
+	height:140px; 
+	border:#555 0px solid;	
+}
+
+.Precios {
+	width:140px; 
+	height:90px; 
+	font-family:'Arial Narrow'; 
+	font-size:13px; 
+	font-weight:bold; 
+	text-align:center;	
+}
+
+a, a:link {
+	text-decoration:none;
+	color:#FFF;
+}
+
+a:hover {
+	text-decoration:none;
+	color:#F60;
+}
+
+.pestana, .pestana:link {
+	text-decoration:none;
+	color:#000;
+}
+
+.pestana:hover {
+	text-decoration:none;
+	color:#000;
+	cursor:pointer;
+}
+
